@@ -1,0 +1,16 @@
+.block{
+	    height: 200px;
+    width: 200px;
+    background-color: #6ca36c;
+    border-radius: 50px;
+    border: 1px solid black;
+    position: absolute;
+    left: 900px;
+    top: 50px;
+}
+.block p{
+  font-family: "Comic Sans MS", sans-serif;;
+	font-size: 25px;
+	color: white;
+	padding: 5%;
+}

@@ -1,0 +1,296 @@
+@charset "UTF-8";
+@import url(@import url("https://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: black;
+}
+
+
+html {height: 100%}
+
+body {
+  width: 100%;
+  height: 100%;
+  color:#fff;
+  background: #dcdcdc;
+  font-size: 1em;
+  font-family: "Comic Sans MS", sans-serif;
+  line-height: 135%;
+
+}
+
+@font-face {
+  font-family: "NesobriteScLtRegular";
+  src: url('../fonts/NesobriteScLtRegular.ttf');
+}
+
+
+#river {
+
+  }
+  #river article{
+    background: url(../Image/river2.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size:cover;
+    float: left;
+    width: 100%;
+    border: 3px solid silver;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    margin-right: 2%;
+    min-height: 400px;
+  }
+  #river span{
+    position: relative;
+    position: absolute;
+    /*top: 450px;
+    left:500px;*/
+    margin-left: 500px;
+    margin-top: 170px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+    background-color: #bdd9d9;
+    border-radius: 15px;
+    opacity: .7 ;
+    color: #020202;
+    border: 2px solid #45cea2;
+    font-family: "NesobriteScLtRegular";
+    font-size: 38px;
+  }
+  #river span:hover{
+    opacity: 10;
+  }
+
+  .content .Geografy{
+    border: 2px solid silver;
+    border-radius: 5px;
+    background-color: #ebf8fb;
+    margin: 10px;
+    padding: 10px;
+  }
+
+.content section h3{
+  left = 50%;
+}
+
+.somepixels
+{
+  height: 70px;
+}
+
+
+
+a#logo {
+    font-size: 28px;
+}
+
+a#into #regestration{
+  font-size: 20px
+}
+
+a{
+  color: black;
+  text-decoration: none; /*подчеркивание ссылок*/
+  transition: all.6s ease;
+  -moz-transition:all.6s ease;
+  -webkit-transition:all.6s ease;
+  -ms-transition:all.6s ease;
+  padding: 3px;
+}
+footer a{
+  text-decoration:underline;
+}
+
+a.active{color:	#2E8B57}
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+/* Selecation Block*/
+
+::selection{background: #f58b8b;color:#fff}
+
+.left{float: left}
+.right {float: right}
+.clear {clear: both}
+
+header,footer {
+  width:98%;
+  /*background-position: #fff;*/
+max-height: 25px;
+ /*background-color: #b1bcce;*/
+ background-color: #b3e6be;
+ float: left;
+ transition: all 0.4s ease;
+}
+header
+{
+  border-bottom: 2px solid silver;
+  padding: 1%;
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  left: 0px;
+}
+
+a:hover{
+  transition: all.0.6s ease;
+  color:#e21d38;
+  transform: scale(1.15, 1.15);
+}
+
+header a{
+  color: #890ce4;
+}
+
+header a:hover {
+    color: #fff;
+    background-color:#8794a9;
+    border-radius: 5px;
+
+  }
+
+  header.sticky {
+font-size: 17px;
+height: 15px;
+background: #9fe2bf;
+text-align: left;
+vertical-align: middle;
+transition: all 0.4s ease;
+padding-top: 2px;
+}
+
+header.sticky #logo {
+ font-size: 22px;
+}
+ul{
+  min-width: 1080px;
+}
+footer.sticky{
+  padding-top: 1px;
+  background: #9fe2bf;
+  transition: all 0.4s ease;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.content {
+  text-align: center;
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.content .Pynkts{
+  border: 2px solid silver;
+  border-radius: 5px;
+  background-color: #ebf8fb;
+margin-top: 420px;
+  padding: 10px;
+margin-bottom: 20px;
+}
+
+.right
+{
+font-size: 1em;
+font-family: Comic Sans MS, sans-serif;
+vertical-align: middle;
+}
+
+.left
+{
+  font-size: 1em;
+  font-family: monospace;
+  vertical-align: middle;
+}
+
+footer
+{
+  padding: 1%;
+  border-top: 2px solid silver;
+  margin-top:10px;
+  position: absolute;
+  bottom: 0;
+  position: fixed;
+  z-index: 9988;
+}
+footer  img {
+width: 12%;
+height: 12%;
+float: left;
+margin-right: 10px;
+}
+
+.content .river4{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: #ebf8fb;
+  padding: 10px;
+  border: 2px solid silver;
+}
+.content .river4 h3{
+  border-bottom: 1px solid silver;
+ margin-left: 20%;
+ margin-right: 20%;
+}
+
+/*Effects*/
+.folded {
+/*  transform: translate(-50%,-50%);*/
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.folded-itm {
+    border: 0.5px solid silver;
+  list-style: none;
+  width: 25%;
+  background: url(../Image/river4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  transition: 0.5s;
+}
+.folded:hover .folded-itm:nth-child(odd) {
+  transform: skewY(15deg);
+  box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+}
+.folded:hover .folded-itm:nth-child(even) {
+  transform: skewY(-15deg);
+  box-shadow: inset 20px 0 50px rgba(0,0,0, .5);
+}
+
+.folded .folded-itm:nth-child(1) {
+  background-position: 0;
+}
+.folded .folded-itm:nth-child(2) {
+  background-position: -180px;
+}
+.folded .folded-itm:nth-child(3) {
+  background-position: -360px;
+
+}
+.folded .folded-itm:nth-child(4) {
+  background-position: -540px;
+
+}
+.folded .folded-itm:nth-child(5) {
+  background-position: -720px;
+
+}
+.folded .folded-itm:nth-child(6) {
+  background-position: -900px;
+
+}
+.folded .folded-itm:nth-child(7) {
+  background-position: -1080px;

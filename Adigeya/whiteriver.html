@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html ; charset=UTF-8" />
+<meta name = "keywords" content="test, site, website"/>
+<meta name="description" content="ХАЙ"/>
+<link href="css/river.css" rel="stylesheet" type="text/css"/>
+<link href="image/favicon.ico" rel="shortcut icon" type="umage/x-icon" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- скрипт шапки-->
+<script>
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){
+$('header').addClass("sticky");
+}
+else{
+$('header').removeClass("sticky");
+}
+});
+</script>
+<script>
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){
+$('footer').addClass("sticky");
+}
+else{
+$('footer').removeClass("sticky");
+}
+});
+</script>
+<script>
+jQuery( window ).scroll(function() {
+    var pos = jQuery( window ).scrollTop() / 2;
+    jQuery('river').css({backgroundPosition: 'left -' + pos + 'px'});
+});</script>
+<script>
+$(document).ready(function(){
+    $window = $(window);
+$('div[data-type="background"]').each(function(){
+     var $bgobj = $(this);
+ $(window).scroll(function() {
+        var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+        var coords = '50% '+ yPos + 'px';
+        $bgobj.css({ backgroundPosition: coords });
+    });
+ });
+});
+</script>
+<title>Река Белая</title>
+</head>
+<body>
+  <div id="page-wrap">
+<header>
+
+  <a href="index.html" title="На главную " id="logo">Адыгея</a>
+</header>
+</div>
+<div class="somepixels"></div>
+<div class="content">
+  <section class="Geografy">
+  <h3>География</h3>
+  <p>Длина — 273 км, площадь бассейна — 5990 км². Берёт начало на Главном, или Водораздельном хребте Большого Кавказа, у вершин Фишт и Оштен. В верхнем течении несёт черты типичной горной реки с рядом каньонных участков, в нижнем течении приобретает равнинный характер. Питание смешанное — ледниковое, снеговое, дождевое.
+
+Главные притоки: Пшеха, Курджипс (левые); Киша, Дах (правые).</p>
+</section>
+</div>
+
+<div id="river" data-speed="10" data-type="background">
+<article>
+  <span>White river</span>
+</article>
+</div>
+<div class="content">
+<section class="Pynkts">
+  <h3>Населенные пункты</h3>
+  <p>На Белой расположены города Майкоп, Белореченск, населённые пункты: посёлок Гузерипль, село Хамышки, посёлок Никель, станица Даховская, посёлок Каменномостский, станица Абадзехская, посёлок Тульский, посёлок Гавердовский, станица Ханская, село Белое.</p>
+</section>
+</div>
+<ul class="folded">
+	<li class="folded-itm"></li>
+	<li class="folded-itm"></li>
+	<li class="folded-itm"></li>
+  <li class="folded-itm"></li>
+  <li class="folded-itm"></li>
+  <li class="folded-itm"></li>
+  <li class="folded-itm"></li>
+
+</ul>
+<div class="content">
+  <div class="river4">
+<h3>Экономика</h3>
+<p>Энергетический потенциал реки используется Белореченским каскадом ГЭС, состоящего из Белореченской и Майкопской ГЭС (суммарная мощность станций — 57,4 МВт, выработка — 241,9 млн кВт·ч/год).
+</p>
+</div>
+</div>
+<footer>
+<span class="left">Все права защищены &copy; 2018</span>
+<span class="right">Вся информация позаимcтвоывана с сайта <a href="https://bit.ly/2DF6GiJ">wikipedia.org</a></span>
+</footer>
+</body>
+</html>

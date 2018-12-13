@@ -1,0 +1,220 @@
+@charset "UTF-8";
+@import url(@import url("https://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: black;
+}
+
+html {height: 100%}
+
+body {
+  width: 100%;
+  height: 100%;
+  color:#fff;
+  background: #dcdcdc;
+  font-size: 1em;
+  font-family: "Comic Sans MS", sans-serif;;
+  line-height: 135%;
+}
+a#logo {
+    font-size: 28px;
+}
+a#into #regestration{
+  font-size: 20px
+}
+
+a{
+  color: #fff;
+  text-decoration: none; /*подчеркивание ссылок*/
+  transition: all.6s ease;
+  -moz-transition:all.6s ease;
+  -webkit-transition:all.6s ease;
+  -ms-transition:all.6s ease;
+  padding: 3px;
+}
+
+a.active{color:	#2E8B57}
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+/* Selecation Block*/
+
+::selection{background: #f58b8b;color:#fff}
+
+.left{float: left}
+.right {float: right}
+.clear {clear: both}
+
+header,footer {
+  width:98%;
+  /*background-position: #fff;*/
+max-height: 25px;
+ /*background-color: #b1bcce;*/
+ background-color: #b3e6be;
+ float: left;
+}
+header
+{
+  border-bottom: 2px solid silver;
+  padding: 1%;
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  left: 0px;
+}
+
+
+header a{
+  color: #890ce4;
+}
+
+header a:hover {
+    color: #fff;
+    background-color:#8794a9;
+    border-radius: 5px;
+  }
+
+  header.sticky {
+font-size: 17px;
+height: 15px;
+background: #9fe2bf;
+text-align: left;
+vertical-align: middle;
+transition: all 0.4s ease;
+padding-top: 2px;
+}
+
+footer.sticky{
+  padding-top: 1px;
+  background: #9fe2bf;
+  transition: all 0.4s ease;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.content{
+  text-align: center;
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#wrapper{
+  float: left;
+  width: 100%;
+}
+
+#wrapper #arcticles{
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#wrapper #arcticles article{
+  float: left;
+  width: 31.333%;
+  border: 3px solid silver;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  margin-right: 2%;
+  min-height: 400px;
+}
+#wrapper #arcticles article img{
+  width: 100%;
+  height: 300px;
+  float: left;
+  /*margin-left: 35px;*/
+  border-bottom: 3px solid silver;
+
+}
+#wrapper #arcticles article  #fishing{
+  width: 90%;
+  float: left;
+  margin-left: 30%;
+  margin-top: 5px;
+}
+#wrapper #arcticles article  #whiteriver{
+  float: left;
+  height: 700px;
+  width: 100%;
+}
+#wrapper #arcticles article a{
+  background-color: #7ce2ad;
+  padding: 5px;
+  margin-left:20px;
+  border-radius: 30px;
+  float: left;
+  margin-top: 25px;
+
+}
+#wrapper #arcticles article a:hover{
+  background-color: #2e8b57;
+  padding: 7px;
+}
+
+#wrapper #arcticles article h2 {
+ width: 90%;
+ float: left;
+ margin-left: 20%;
+ margin-top: 5px;
+ max-width: 80%;
+ font-style:
+}
+
+
+.right
+{
+font-size: 1em;
+font-family: Comic Sans MS, sans-serif;
+vertical-align: middle;
+}
+
+.left
+{
+  font-size: 1em;
+  font-family: monospace;
+  vertical-align: middle;
+}
+
+#menu {
+  color:#666;
+  font-family: Comic Sans MS,sans-serif;
+  font-size: 1.78em;
+  margin-top: 60px;
+}
+#menu hr{
+  width: 500px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/* Cтили для футера*/
+
+footer
+{
+  padding: 1%;
+  border-top: 2px solid silver;
+  margin-top:10px;
+  position: absolute;
+  bottom: 0;
+  position: fixed;
+  z-index: 9988;
+}
+footer  img {
+width: 12%;
+height: 12%;
+float: left;
+margin-right: 10px;
+}
+
+/*#page-wrap {
+min-height;: 94%;
+margin-bottom: 500px;
+*/

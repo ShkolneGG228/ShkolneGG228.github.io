@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html ; charset=UTF-8" />
+<meta name = "keywords" content="test, site, website"/>
+<meta name="description" content="ХАЙ"/>
+<link href="css/Style.css" rel="stylesheet" type="text/css"/>
+<link href="image/favicon.ico" rel="shortcut icon" type="umage/x-icon" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- скрипт шапки-->
+<script>
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){
+$('header').addClass("sticky");
+}
+else{
+$('header').removeClass("sticky");
+}
+});
+</script>
+<script>
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){
+$('footer').addClass("sticky");
+}
+else{
+$('footer').removeClass("sticky");
+}
+});
+</script>
+<title>Республика Адыгея</title>
+</head>
+<body>
+  <div id="page-wrap">
+<header>
+
+  <a href="index.html" title="На главную " id="logo">Адыгея</a>
+
+</header>
+</div>
+<center>
+<div class="clear"><br /></div>
+<div id="menu"> Разделы <hr /></div>
+<div id="menuHrefs"></div>
+ <a href=""> </a>
+</center>
+<div id="wrapper">
+  <div id="arcticles">
+    <article id="whiteriver">
+   <img src="Image/whiteriver.png"/>
+   <h2>Река Белая</h2>
+   <a href="whiteriver.html">Читать далее</a>
+    </article>
+    <article id="mountains">
+      <img src="Image/mountains.png"/>
+      <h2>Горы Кавказа</h2>
+      <a href="mountains.html">Читать далее</a>
+    </article>
+    <article id="fishing">
+      <img src="Image/fishing.png"/>
+      <h2>Рыбалка в Адыгеи</h2>
+      <a href="fishing.html">Читать далее</a>
+    </article>
+  </div>
+</div>
+<div class="content"> <span>
+</span> </div>
+
+<footer>
+<span class="left">Все права защищены &copy; 2018</span>
+<a href="rat.html" target="_blank"><span class="right"> Мы в соц. сетях <img src="Image/vk.png"
+  alt="ВК" title="Мы вконтакте"/> </span></a>
+</footer>
+</body>
+</html>
