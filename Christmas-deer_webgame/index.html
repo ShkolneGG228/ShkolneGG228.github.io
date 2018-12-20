@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatiable" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Christmas Game</title>
+</head>
+<body>	
+<canvas id="canvas" width="1092,8" height="614,4">
+</canvas>
+<div class="container">
+		<div class="buttons">
+			<div class="switcher">
+				<button id="pre" onclick="Pre()"><img src="img/pre.png"/></button>
+			  <button id="pauseOrplay" onclick="PlayOrPause()"><img id='pauseOrplayimg' src='img/play.png'/></button>
+			  <button id="next" onclick="Next()"><img src="img/next.png"/></button>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="volume">
+				<button onclick="VolumeOff()"><img src="img/speaker.png" /></button>
+				<button onclick="VolumeMinus()"><img src="img/minus.png" /></button>
+				<button onclick="VolumePlus()"><img src="img/plus.png" /></button>
+			</div>
+			<label id="vol">Click for on music</label>
+		</div>
+		
+	</div>
+
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

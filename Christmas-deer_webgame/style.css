@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+canvas{
+	border-bottom: 5px solid silver;
+	border-right: 5px solid silver;
+	border-left: 5px solid silver;
+	/*margin-left: 150px;*/
+	float: right;
+	z-index: 1;
+}
+body{
+	background:url('img/background.jpg');
+}
+ img {
+	max-width: 25px;
+	max-height: 25px;
+}
+.container{
+	z-index: 5;
+	position: absolute;
+	width: 265px;
+	height: 250px;
+	background: #415492;
+	border-bottom : 3px solid #c4c4c4;
+	display: block;
+
+	top: 2%;
+	transform: translate(-0%, -10%);
+}
+
+button{
+ background-color: #d1d1d1;
+ padding: 10px;
+ border-radius: 2px;
+ border-radius: 50%;
+ border-width: 0px;
+}
+button:hover{
+	cursor: pointer;
+}
+:focus {
+    transition: 0.2s;
+    background-color:#7a89bf; 
+    outline: none;
+    border: 1px inline silver;
+}
+#pauseOrplay img{
+	max-height: 35px;
+	max-width: 35px;
+}
+
+.switcher{
+	position: absolute;
+	left: 20%;
+	top: 15px;
+}
+.buttons {
+	margin-top: 5px;
+}
+.volume{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.volume img{
+	max-height: 20px;
+	max-width: 20px;
+}
+label{
+	font-family: monospace;
+    font-size: 22px;
+    color: #dfdfdf;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%);
+    font-weight: 700;
+}
+
