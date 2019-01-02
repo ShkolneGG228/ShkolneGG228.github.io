@@ -61,6 +61,7 @@ header a:hover{
  margin-right: 2%;
  min-height: 500px;
  position: absolute;
+ height: 75%;
 }
 
 @font-face {

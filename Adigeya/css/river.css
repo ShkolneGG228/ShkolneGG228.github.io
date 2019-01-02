@@ -274,23 +274,21 @@ margin-right: 10px;
   background-position: 0;
 }
 .folded .folded-itm:nth-child(2) {
-  background-position: -180px;
+  background-position: 20%;
 }
 .folded .folded-itm:nth-child(3) {
-  background-position: -360px;
+  background-position: 40%;
 
 }
 .folded .folded-itm:nth-child(4) {
-  background-position: -540px;
+  background-position: 60%;
 
 }
 .folded .folded-itm:nth-child(5) {
-  background-position: -720px;
+  background-position: 80%;
 
 }
 .folded .folded-itm:nth-child(6) {
-  background-position: -900px;
+  background-position: 100%;
 
 }
-.folded .folded-itm:nth-child(7) {
-  background-position: -1080px;

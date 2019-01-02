@@ -308,14 +308,8 @@ article img{border: 3px solid #755353;border-radius: 5px;}
   margin-bottom: 70px;
 }
 #myLink .sheep img{
-  width: 25%;
-  margin-top: 50px;
+  width: 22%;
+  display:padding-top:  flex;
   transition: all 0.3s ease;
   transform: scale(-1, 1)
-}
-#myLink .sheep img:hover{
-  margin-top: 0px;
-  transition: all 1s ease;
-  cursor: pointer;
-  z-index:1;
 }
